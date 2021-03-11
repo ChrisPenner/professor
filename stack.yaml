@@ -19,6 +19,8 @@
 # resolver: https://example.com/snapshots/2018-01-01.yaml
 resolver: lts-16.17
 
+allow-newer: true
+
 # User packages to be built.
 # Various formats can be used as shown in the example below.
 #
@@ -30,12 +32,12 @@ resolver: lts-16.17
 #   - wai
 packages:
 - .
-- ../proton
 # Dependency packages to be pulled from upstream that are not in the resolver.
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:
 #
 extra-deps:
+- proton-0.0.3
 - compactable-0.1.2.3@sha256:1dccae8bcf6aa4cfd01e2fd0ec36c98d6efdd3247b6ab1a49a7cfdede4d27d95,1707
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git
