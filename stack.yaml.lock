@@ -5,12 +5,12 @@
 
 packages:
 - completed:
-    hackage: proton-0.0.1@sha256:04339055a0f806240a5b5ee3b880708fb6ed0e7742f14c7ac605802230cfb797,2660
+    hackage: proton-0.0.3@sha256:3653168d083cf8e40b1bfb48a466feeb9d7779f087f20f319c0b6397a9681f46,3008
     pantry-tree:
-      size: 3586
-      sha256: 2d8a4631269f3fcc250c8c17db6df67459901cf67b5f448d3d14f9c366e415c4
+      size: 4334
+      sha256: 4dfb6af9c7fb47cd922cb1adc144c9080c94a21c880415bde8ce7160b96aeb3c
   original:
-    hackage: proton-0.0.1@sha256:04339055a0f806240a5b5ee3b880708fb6ed0e7742f14c7ac605802230cfb797,2660
+    hackage: proton-0.0.3
 - completed:
     hackage: compactable-0.1.2.3@sha256:1dccae8bcf6aa4cfd01e2fd0ec36c98d6efdd3247b6ab1a49a7cfdede4d27d95,1707
     pantry-tree:
